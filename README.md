@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Taskido
+
+A modern task management application with a beautiful landing page.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment on Netlify
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Option 1: Deploy from GitHub
 
-## Learn More
+1. Push your code to GitHub
+2. Log in to Netlify
+3. Click "New site from Git"
+4. Select your GitHub repository
+5. Configure build settings:
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+6. Click "Deploy site"
 
-To learn more about Next.js, take a look at the following resources:
+### Option 2: Deploy using Netlify CLI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Install Netlify CLI: `npm install -g netlify-cli`
+2. Login to Netlify: `netlify login`
+3. Initialize your site: `netlify init`
+4. Deploy your site: `netlify deploy --prod`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Custom Domain Setup
 
-## Deploy on Vercel
+1. In Netlify, go to Site settings > Domain management
+2. Click "Add custom domain"
+3. Enter your domain (e.g., taskido.com)
+4. Follow the instructions to configure your DNS settings
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js
+- React
+- TypeScript
+- Sass
+- Swiper
