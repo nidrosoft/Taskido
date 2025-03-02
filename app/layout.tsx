@@ -15,8 +15,8 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-    title: "Bento Cards: Landing",
-    description: "Minimal to-do list app UI design kit + landing page",
+    title: "Tasklido | Organize Your Life, One Task at a Time",
+    description: "Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive.",
 };
 
 export default function RootLayout({
@@ -28,16 +28,16 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 {/* Description no longer than 155 characters */}
-                <meta name="description" content="Bento Cards: Tasklido" />
+                <meta name="description" content="Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive." />
                 {/* Product Name */}
-                <meta name="product-name" content="Bento Cards: Tasklido" />
+                <meta name="product-name" content="Tasklido" />
                 {/* Twitter Card data */}
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@ui8" />
-                <meta name="twitter:title" content="Bento Cards: Tasklido" />
+                <meta name="twitter:title" content="Tasklido | Organize Your Life, One Task at a Time" />
                 <meta
                     name="twitter:description"
-                    content="Minimal to-do list app UI design kit + landing page"
+                    content="Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive."
                 />
                 <meta name="twitter:creator" content="@ui8" />
                 {/* Twitter Summary card images must be at least 120x120px */}
@@ -47,11 +47,11 @@ export default function RootLayout({
                 />
 
                 {/* Open Graph data for Facebook */}
-                <meta property="og:title" content="Bento Cards: Tasklido" />
-                <meta property="og:type" content="Article" />
+                <meta property="og:title" content="Tasklido | Organize Your Life, One Task at a Time" />
+                <meta property="og:type" content="website" />
                 <meta
                     property="og:url"
-                    content="https://ui8.net/ui8/products/bento-cards-simplelist"
+                    content="https://tasklido.com"
                 />
                 <meta
                     property="og:image"
@@ -59,19 +59,19 @@ export default function RootLayout({
                 />
                 <meta
                     property="og:description"
-                    content="Minimal to-do list app UI design kit + landing page"
+                    content="Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive."
                 />
                 <meta
                     property="og:site_name"
-                    content="Bento Cards: Tasklido"
+                    content="Tasklido"
                 />
                 <meta property="fb:admins" content="132951670226590" />
 
                 {/* Open Graph data for LinkedIn */}
-                <meta property="og:title" content="Bento Cards: Tasklido" />
+                <meta property="og:title" content="Tasklido | Organize Your Life, One Task at a Time" />
                 <meta
                     property="og:url"
-                    content="https://ui8.net/ui8/products/bento-cards-simplelist"
+                    content="https://tasklido.com"
                 />
                 <meta
                     property="og:image"
@@ -79,14 +79,14 @@ export default function RootLayout({
                 />
                 <meta
                     property="og:description"
-                    content="Minimal to-do list app UI design kit + landing page"
+                    content="Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive."
                 />
 
                 {/* Open Graph data for Pinterest */}
-                <meta property="og:title" content="Bento Cards: Tasklido" />
+                <meta property="og:title" content="Tasklido | Organize Your Life, One Task at a Time" />
                 <meta
                     property="og:url"
-                    content="https://ui8.net/ui8/products/bento-cards-simplelist"
+                    content="https://tasklido.com"
                 />
                 <meta
                     property="og:image"
@@ -94,7 +94,7 @@ export default function RootLayout({
                 />
                 <meta
                     property="og:description"
-                    content="Minimal to-do list app UI design kit + landing page"
+                    content="Simplify your life with Tasklido - the elegant task management app that helps you stay organized, focused, and productive."
                 />
             </head>
             <body className={cn(rubik.className, hostGrotesk.className)}>
