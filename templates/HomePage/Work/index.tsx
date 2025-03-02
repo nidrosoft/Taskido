@@ -24,7 +24,7 @@ const Work = ({}: WorkProps) => (
                 </div>
                 <div className={styles.list}>
                     <Bento
-                        title="Install Taskido"
+                        title="Install Tasklido"
                         content="Create, manage, and conquer your to-do lists with ease"
                         number={1}
                     >

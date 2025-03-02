@@ -4,7 +4,7 @@ export const testimonials = [
         author: "Emma L.",
         post: "Marketing Executive",
         avatar: "/images/avatar-1.png",
-        title: "Taskido revolutionized my daily routine.",
+        title: "Tasklido revolutionized my daily routine.",
         content: "I've never been more organized!",
     },
     {
@@ -28,7 +28,7 @@ export const testimonials = [
         author: "David T.",
         post: "Boutique Owner",
         avatar: "/images/avatar-4.png",
-        title: "Taskido is a game-changer for my small business.",
+        title: "Tasklido is a game-changer for my small business.",
         content: "Managing inventory has never been easier.",
     },
     {
@@ -36,7 +36,7 @@ export const testimonials = [
         author: "Lila K.",
         post: "Teacher",
         avatar: "/images/avatar-5.png",
-        title: "Taskido's reminders keep me on track without being intrusive.",
+        title: "Tasklido's reminders keep me on track without being intrusive.",
         content: "It's like having a gentle, organized friend.",
     },
     {
@@ -68,6 +68,6 @@ export const testimonials = [
         author: "Jake L.",
         post: "College Student",
         avatar: "/images/avatar-4.png",
-        title: "As a student, Taskido helps me manage assignments and deadlines without feeling overwhelmed.",
+        title: "As a student, Tasklido helps me manage assignments and deadlines without feeling overwhelmed.",
     },
 ];

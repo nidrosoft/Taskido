@@ -28,13 +28,13 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 {/* Description no longer than 155 characters */}
-                <meta name="description" content="Bento Cards: Taskido" />
+                <meta name="description" content="Bento Cards: Tasklido" />
                 {/* Product Name */}
-                <meta name="product-name" content="Bento Cards: Taskido" />
+                <meta name="product-name" content="Bento Cards: Tasklido" />
                 {/* Twitter Card data */}
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@ui8" />
-                <meta name="twitter:title" content="Bento Cards: Taskido" />
+                <meta name="twitter:title" content="Bento Cards: Tasklido" />
                 <meta
                     name="twitter:description"
                     content="Minimal to-do list app UI design kit + landing page"
@@ -47,7 +47,7 @@ export default function RootLayout({
                 />
 
                 {/* Open Graph data for Facebook */}
-                <meta property="og:title" content="Bento Cards: Taskido" />
+                <meta property="og:title" content="Bento Cards: Tasklido" />
                 <meta property="og:type" content="Article" />
                 <meta
                     property="og:url"
@@ -63,12 +63,12 @@ export default function RootLayout({
                 />
                 <meta
                     property="og:site_name"
-                    content="Bento Cards: Taskido"
+                    content="Bento Cards: Tasklido"
                 />
                 <meta property="fb:admins" content="132951670226590" />
 
                 {/* Open Graph data for LinkedIn */}
-                <meta property="og:title" content="Bento Cards: Taskido" />
+                <meta property="og:title" content="Bento Cards: Tasklido" />
                 <meta
                     property="og:url"
                     content="https://ui8.net/ui8/products/bento-cards-simplelist"
@@ -83,7 +83,7 @@ export default function RootLayout({
                 />
 
                 {/* Open Graph data for Pinterest */}
-                <meta property="og:title" content="Bento Cards: Taskido" />
+                <meta property="og:title" content="Bento Cards: Tasklido" />
                 <meta
                     property="og:url"
                     content="https://ui8.net/ui8/products/bento-cards-simplelist"

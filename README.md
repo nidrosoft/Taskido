@@ -1,4 +1,4 @@
-# Taskido
+# Tasklido
 
 A modern task management application with a beautiful landing page.
 

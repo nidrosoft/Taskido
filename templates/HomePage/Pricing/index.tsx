@@ -22,7 +22,7 @@ const Pricing = ({}: PricingProps) => {
                         Choose your simplicity level
                     </div>
                     <div className={styles.info}>
-                        Every journey begins with a list. Choose your Taskido
+                        Every journey begins with a list. Choose your Tasklido
                         plan and watch your efficiency soar!
                     </div>
                     <div
